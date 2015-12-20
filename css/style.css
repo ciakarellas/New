@@ -1,0 +1,351 @@
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Merriweather;  
+    
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    padding: 0 0 2px 0;
+    
+}
+
+h2{
+  font-weight: 600;
+}
+
+.navbar-brand img{
+  height: 2em;
+  width: 3.7em;
+}
+
+
+.item{
+    height: 40em;
+}
+
+.nav{
+    padding-top: 0.3em;
+    margin: 0;
+
+}
+
+.start{
+  width: 100%;
+}
+/* Slider */
+.sli{
+  /*width:900px;*/
+    position: relative;
+    
+}
+
+.sli figure{
+    background-image: url(zdjecia/panorama.jpg) center center;
+    background-size: cover;
+}
+.slider{
+  width:900px;
+  font-size:2.5em;
+  line-height:40px;
+  font-family:'Muli';
+  color:#555555;
+  height:59px;
+  top:16%;
+  left:2%;
+  position: absolute;
+}
+
+.animtext{
+    float:left;
+    font-weight:300;
+    overflow:hidden;
+    height:40px;
+}
+
+.animtext ul {
+  margin-top:0;
+
+  text-align:left;
+  list-style:none;
+  animation:20s  infinite change;
+  -webkit-animation:20s infinite change;
+  -moz-animation:20s infinite change;
+  -o-animation:20s infinite change;
+}
+
+.animtext ul li {
+  line-height:40px;
+  margin:0;
+  text-decoration: none;
+}
+
+@-webkit-keyframes change {
+  0%   {margin-top:0;}
+  10%  {margin-top:0;}
+  20%  {margin-top:-40px;}
+  30%  {margin-top:-40px;}
+  40%  {margin-top:-80px;}
+  50%  {margin-top:-80px;}
+  60%  {margin-top:-120px;}
+  70%  {margin-top: -120px;}
+  80%  {margin-top: -160px;}
+  100%  {margin-top:-160px;}
+}
+@keyframes change {
+  0%   {margin-top:0;}
+  10%  {margin-top:0;}
+  20%  {margin-top:-40px;}
+  30%  {margin-top:-40px;}
+  40%  {margin-top:-80px;}
+  50%  {margin-top:-80px;}
+  60%  {margin-top:-120px;}
+  70%  {margin-top: -120px;}
+  80%  {margin-top: -160px;}
+  100%  {margin-top:-160px;}
+ }
+
+@media only screen and (max-width: 768px){
+    .slider{
+        font-size: 2em;
+        top: 25%;
+        left: 2%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .slider{
+        font-size: 1.1em;
+        top:30%;
+        left: 0;
+    }
+}
+
+/*About Modal*/
+.modal-content .about img{
+  width: 70px;
+  height: 70px;
+}
+
+/*Main container*/
+.content{
+    font-family: Merriweather;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding: 2em 7em 4em 4em;
+}
+.content h2{
+    font-family: Lato;
+    padding-bottom: 1em;
+}
+
+.content .first{
+    margin-bottom: 1.2em;
+}
+
+.list ul{
+    padding: .5em 0 .8em .5em;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li:before{
+    content: "-    ";
+    padding-right: .5em;
+}
+.content a{
+    font-size: .9em;
+}
+.modal-footer .btn{
+        margin-bottom: 0;
+    }
+
+.mieszkaniowe{
+  float: left;
+  width: 50%;
+}
+section{
+  margin-bottom: 5em;
+}
+.komercyjne{
+  float: left;
+  margin-bottom: 2em;
+}
+
+.modalparagraf{
+  margin-top: 3em;
+  clear: both;
+}
+.modal-content section{
+  height: 9em
+}
+@media only screen and (min-width: 1400px) {
+    .content{
+        padding: 6em 6em 3em 6em;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .content{
+        padding: 2em 3em 2em 3em;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    .content{
+        padding: .5em 2em 1em 3em;
+        margin: 0;
+    }
+    .logo{
+        margin: .8em 0 .8em 0;
+    }
+}
+@media only screen and (max-width: 800px){
+    .content{
+        padding: 2em 6em 2em 6em;
+    }
+    .row{
+        padding-bottom: 1em;
+    }
+    .logo{
+        margin: .8em 0 .8em 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+    .content{
+        padding: 2em 4em 2em 4em;
+    }
+    .row{
+        padding-bottom: .2em;
+    }
+    .logo{
+        margin: .5em 0 .5em 0;
+    }
+}
+
+.hid{
+    margin-top: 4em;
+}
+
+/* modal css*/
+
+.modal-content img{
+    height: 20em;
+}
+
+.modal-content{
+    padding: 3em 4.5em;
+    line-height: 1.5em;
+}
+
+.modal-content h2{
+    text-align: center;
+}
+
+button{
+    margin-bottom: 1em
+}
+
+/* About */
+
+.about{
+    font-family: Merriweather;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    padding: 4em 14em 1em 14em;
+}
+
+.about img{
+  width: 8em;
+  height: auto;
+  margin: auto 40%;
+  padding-bottom: 2em;
+}
+
+.about section{
+  text-align: justify;
+}
+
+.about section h3{
+  padding-bottom: 1.2em;
+}
+
+@media only screen and (max-width: 950px){
+  .about{
+      padding: 1.5em 7em 0 7em;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .about{
+      padding: 1.5em 1em 0 1em;
+  }
+  .about img{
+  margin: auto 25%;
+  }
+}
+
+.line{
+  border-bottom:4px solid grey;
+  width: 100%;
+}
+
+/* Trust */
+.trust{
+    margin-top: 3em;
+}
+
+.trust h2{
+    margin: 0 0 2em 4em;
+    }
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .row .logo img{
+      margin: 2em auto 0 auto;
+    }
+}
+
+/*contact*/
+.contact{
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color: grey;
+    border-top: solid lightgrey;
+    text-align: center;
+}
+
+.contact .glyphicon{
+    padding-top: 0.8em;
+    font-size: 3em;
+    color: white;
+    margin-bottom: .5em;
+}
+
+.ch p{
+    color: white;
+}
+
+.map a{
+    text-decoration: none;
+    color: white;
+}
